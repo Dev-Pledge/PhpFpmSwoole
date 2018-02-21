@@ -1,0 +1,17 @@
+{
+  "name": "dev-pledge/phpfpm-swoole",
+  "description": "Dev Pledge PHP FPM SWOOLE container",
+  "keywords": [
+    "feed"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "John Saunders",
+      "email": "john@yettimedia.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  }
+}
