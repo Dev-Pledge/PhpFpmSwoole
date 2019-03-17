@@ -17,3 +17,5 @@ RUN pecl install swoole
 RUN docker-php-ext-enable swoole
 
 RUN apt-get install -q -y ssmtp mailutils
+
+RUN apt-get install -y cron

@@ -40,7 +40,7 @@ then
     eval "composer install --prefer-source --no-interaction"
 fi
 
-exec "php-fpm"
+cron -f & php-fpm
 
 
 
