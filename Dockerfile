@@ -25,5 +25,5 @@ RUN apt-get install -q -y ssmtp mailutils
 
 RUN apt-get install -y cron
 
-RUN apt-get install -y exif
+RUN docker-php-ext-install exif
 
