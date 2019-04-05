@@ -10,8 +10,9 @@ RUN apt-get update && apt-get install -y git \
     && apt-get install --yes zip unzip \
     mysql-client libssl-dev --no-install-recommends \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
-    && docker-php-ext-install pdo_mysql \
-    && docker-php-ext-install gd
+    && docker-php-ext-install pdo_mysql
+
+RUN apt-get install php7.3-gd
 
 RUN pecl install swoole
 
