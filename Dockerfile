@@ -27,6 +27,6 @@ RUN apt-get install -q -y ssmtp mailutils
 
 RUN apt-get install -y cron
 
-RUN docker-php-ext-install bcmath
+#RUN docker-php-ext-install bcmath
 
 
